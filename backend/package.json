@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "file-type": "^18.7.0",
+    "form-data": "^4.0.4",
+    "he": "^1.2.0",
+    "linkify": "^0.2.1",
+    "linkifyjs": "^4.3.2",
+    "mailparser": "^3.7.4",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "node-imap": "^0.9.6",
+    "octokit": "^5.0.3"
+  }
+}
