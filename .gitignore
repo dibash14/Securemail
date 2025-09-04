@@ -1,0 +1,4 @@
+
+node_modules/
+*.env
+/backend/src/services/links/phishingLink.js
